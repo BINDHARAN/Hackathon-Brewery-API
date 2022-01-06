@@ -1,0 +1,59 @@
+body {
+    background-image: linear-gradient(to right, #00416a, #e4e5e6);
+}
+
+.container {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-part {
+    background-color: white;
+    margin: 20px 30px;
+    padding: 10px;
+    border-style: double;
+    border-color: rgb(38, 10, 63);
+    border-radius: 10px;
+}
+
+.box-part:hover {
+    background-color: rgb(245, 242, 241);
+    transform: translateY(2px);
+    box-shadow: 2px 2px 26px 2px rgb(27, 27, 26);
+}
+
+input[type="search"] {
+    width: 40%;
+    padding: 13px;
+}
+
+input[type="search"]:hover {
+    transform: translateY(2px);
+    box-shadow: 2px 2px 26px 2px rgb(51, 51, 48);
+}
+
+input[placeholder] {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#searchitems {
+    display: flex;
+    justify-content: center;
+}
+
+.hfont {
+    font-family: Cursive;
+    text-shadow: 2px 0px 8px black
+}
+
+.pfont {
+    font-family: cursive;
+}
+
+.inside {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
